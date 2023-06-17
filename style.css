@@ -1,0 +1,30 @@
+.Menu ul{
+    list-style: none;
+    display:flex;
+    border: 1px solid #e4e3e3;
+    text-align:center;
+    justify-content:center;
+}
+.Active{
+    color: #fff;
+    background-color: black;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.Menu li{
+    padding:5px 10px;
+    margin:2px 5px;
+    transition:0.5s;
+    border-bottom: 1px solid white;
+    border-radius:0px 10px;
+}
+.Menu li:hover{
+    
+    
+    border-bottom: 2px solid rgb(255, 0, 0)};
+    .Menu ul:hover .Active{
+       
+    }
+    .Active:hover{
+        color: #fff;
+    }
